@@ -4,7 +4,6 @@ from django.utils import timezone
 
 
 class ImagesSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Photo
         fields = '__all__'
@@ -34,8 +33,8 @@ class EnterpriseUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Photo
-        fields = ('photo_basic', 'photo_premium', 'photo', 'expiring_link', 'time_active')
-        read_only_fields = ('photo_basic', 'photo_premium', 'expiring_link', 'id')
+        fields = ('photo_basic', 'photo_premium', 'photo', 'expiring_link', 'time_active', 'id')
+        read_only_fields = ('photo_basic', 'photo_premium', 'expiring_link')
 
     def get_expiring_link(self, obj):
         expiration_time = obj.active_until
