@@ -28,8 +28,7 @@ Download repository `git clone https://github.com/JolantaWro/photostorage.git`
 
 In order to run the application environment is required:
 - Installing [_Docker_](https://docs.docker.com/engine/install) according to the Docker project documentation.
-- Installing [_Docker Compose_](https://docs.docker.com/compose/install/) for Linux (Docker for Windows and 
-- Mac comes with this software built-in).
+- Installing [_Docker Compose_](https://docs.docker.com/compose/install/) for Linux (Docker for Windows and Mac comes with this software built-in).
 
 The project requires adding an .env file with SECRET_KEY. Add the .env file to the root directory of the project.
 
