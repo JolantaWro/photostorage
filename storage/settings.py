@@ -57,7 +57,7 @@ MIDDLEWARE = [
 ]
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-CSRF_TRUSTED_ORIGINS = ['https://web-production-1d39.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-1d39.up.railway.app', 'https://.127.0.0.1']
 
 ROOT_URLCONF = 'storage.urls'
 
